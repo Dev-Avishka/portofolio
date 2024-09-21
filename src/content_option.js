@@ -12,7 +12,7 @@ const introdata = {
         third: "I develop mobile apps and games",
     },
     description: "I am a student who is going to Edith Cowan University",
-    your_img_url: "https://www.dropbox.com/scl/fi/u9suzipvluya1wc9pkha4/mypic.png?rlkey=zx8u23hoyrlu8m1ngv129xf3h&st=h6e0r6rm&raw",
+    your_img_url: "https://www.dropbox.com/scl/fi/guljh7388lc664ugcw304/mpypicfinal.png?rlkey=avnrk0p0dd01utywx85o1xoer&st=3eebf6d0&raw=1",
 };
 
 const dataabout = {
@@ -71,9 +71,9 @@ const contactConfig = {
     description: "For further inquiries contact me through email or this form",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_huj9yfx",
+    YOUR_TEMPLATE_ID: "template_227vzvg",
+    YOUR_USER_ID: "CiyomFaloFH6O5h5s",
 };
 
 const socialprofils = {
