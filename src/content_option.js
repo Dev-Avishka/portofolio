@@ -98,7 +98,7 @@ const contactConfig = {
     YOUR_USER_ID: "CiyomFaloFH6O5h5s",
 };
 
-const socialprofils =o
+const socialprofils ={
     github: "https://github.com/Dev-Avishka",
 
     linkedin: "https://www.linkedin.com/in/dev-avishka-65ba5a325/",
