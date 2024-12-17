@@ -7,12 +7,12 @@ const meta = {
 const introdata = {
     title: "I’m Devdisa Dissanayake",
     animated: {
-        first: "I love coding",
-        second: "I can code websites",
-        third: "I develop mobile apps and games",
+        first: "I have 4 years of experience in programming",
+        second: "I will turn your dreams into a mobile app or a website",
+        third: "I can turn your wildest ideas into a video game",
     },
     description: "I am a student who is going to Edith Cowan University",
-    your_img_url: "https://www.dropbox.com/scl/fi/guljh7388lc664ugcw304/mpypicfinal.png?rlkey=avnrk0p0dd01utywx85o1xoer&st=3eebf6d0&raw=1",
+    your_img_url: "",
 };
 
 const dataabout = {
@@ -28,7 +28,7 @@ const worktimeline = [{
 
 const skills = [{
         name: "Python",
-        value: 50,
+        value: 80,
     },
     {
         name: "Express",
@@ -46,11 +46,15 @@ const skills = [{
         name: "Unity",
         value: 95,
     },
+    {
+        name: "Machine Learning",
+        value: 85,
+    },
 ];
 
 const services = [{
         title: "Website Development",
-        description: "I will develop websites for you.",
+        description: "I will make your dream website come true",
     },
     {
         title: "Mobile Apps",
@@ -89,14 +93,12 @@ const contactConfig = {
     YOUR_EMAIL: "dabdissanayake@gmail.com",
   
     description: "For further inquiries contact me through email or this form",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_huj9yfx",
     YOUR_TEMPLATE_ID: "template_227vzvg",
     YOUR_USER_ID: "CiyomFaloFH6O5h5s",
 };
 
-const socialprofils = {
+const socialprofils =o
     github: "https://github.com/Dev-Avishka",
 
     linkedin: "https://www.linkedin.com/in/dev-avishka-65ba5a325/",
