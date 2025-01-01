@@ -31,9 +31,10 @@ export const Home = () => {
                         introdata.animated.second,
                         introdata.animated.third,
                       ],
+                      
                       autoStart: true,
                       loop: true,
-                      deleteSpeed: 10,
+                      deleteSpeed: 5,
                     }}
                   />
                 </h1>
