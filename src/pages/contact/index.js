@@ -37,7 +37,7 @@ export const ContactUs = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          // console.log(result.text);
           setFormdata({
             loading: false,
             alertmessage: "SUCCESS! ,Thankyou for your messege",
@@ -46,7 +46,7 @@ export const ContactUs = () => {
           });
         },
         (error) => {
-          console.log(error.text);
+          // console.log(error.text);
           setFormdata({
             alertmessage: `Faild to send!,${error.text}`,
             variant: "danger",
