@@ -6,6 +6,7 @@ import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
+
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -162,6 +163,9 @@ export const ContactUs = () => {
         </Row>
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
+      <br></br>
+      <br></br>
+      <br></br>
     </HelmetProvider>
   );
 };
