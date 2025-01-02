@@ -12,7 +12,7 @@ const introdata = {
         third: "I can turn your wildest ideas into a video game",
     },
     description: "I am a student who is going to Edith Cowan University",
-    your_img_url: "",
+    your_img_url: "/image.png",
 };
 
 const dataabout = {

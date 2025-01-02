@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import Video from "./video";
 
 export const Home = () => {
   return (
@@ -17,7 +18,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            style={{ backgroundImage: `url(${introdata.your_img_url})` }} // remove effects from this iimage
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
@@ -31,7 +32,6 @@ export const Home = () => {
                         introdata.animated.second,
                         introdata.animated.third,
                       ],
-                      
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 5,
@@ -62,6 +62,8 @@ export const Home = () => {
           </div>
         </div>
       </section>
+      {/* Video Component */}
+      <Video path="/video.mp4" />
     </HelmetProvider>
   );
 };
