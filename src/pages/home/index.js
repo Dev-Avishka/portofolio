@@ -40,8 +40,9 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
+                <div className="button-row">
                   <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
+                    <div id="button_p" className="ac_btn btn">
                       My Portfolio
                       <div className="ring one"></div>
                       <div className="ring two"></div>
@@ -57,6 +58,17 @@ export const Home = () => {
                     </div>
                   </Link>
                 </div>
+                <div className="button-row">
+                  <Link to="/blog">
+                    <div id="button_blog" className="ac_btn btn">
+                      My Blog
+                    </div>
+                  </Link>
+                </div>
+              </div>
+
+
+
               </div>
             </div>
           </div>
