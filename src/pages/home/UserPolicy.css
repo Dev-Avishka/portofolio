@@ -1,0 +1,49 @@
+.policy-popup {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+  
+  .policy-popup p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .policy-popup a {
+    color: #1e90ff;
+    text-decoration: underline;
+  }
+  
+  .policy-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .accept-btn,
+  .decline-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accept-btn:hover {
+    background: green;
+  }
+  
+  .decline-btn:hover {
+    background: red;
+  }
+  

@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import Video from "./video";
+import UserPolicy from "./UserPolicy";
 
 export const Home = () => {
   return (
@@ -76,6 +77,7 @@ export const Home = () => {
       </section>
       {/* Video Component */}
       <Video path="/video.mp4" />
+      <UserPolicy />
     </HelmetProvider>
   );
 };
