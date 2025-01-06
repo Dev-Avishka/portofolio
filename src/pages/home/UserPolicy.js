@@ -9,7 +9,7 @@ const UserPolicy = () => {
     if (!isPolicyAccepted) {
       setShowPolicy(true);
     }else{
-      setShowPolicy(true);
+      setShowPolicy(false);
     }
   }, []);
 
