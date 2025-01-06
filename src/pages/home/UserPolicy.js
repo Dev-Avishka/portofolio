@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./UserPolicy.css";
 
 const UserPolicy = () => {
-  const [showPolicy, setShowPolicy] = useState(true);
+  const [showPolicy, setShowPolicy] = useState(false);
+
+  useEffect(() => {
+    const isPolicyAccepted = sessionStorage.getItem("policyAccepted");
+    if (!isPolicyAccepted) {
+      setShowPolicy(true);
+    }
+  }, []);
 
   const handleAccept = () => {
+    sessionStorage.setItem("policyAccepted", "true");
     setShowPolicy(false);
   };
 
