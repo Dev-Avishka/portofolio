@@ -8,6 +8,8 @@ const UserPolicy = () => {
     const isPolicyAccepted = sessionStorage.getItem("policyAccepted");
     if (!isPolicyAccepted) {
       setShowPolicy(true);
+    }else{
+      setShowPolicy(true);
     }
   }, []);
 
