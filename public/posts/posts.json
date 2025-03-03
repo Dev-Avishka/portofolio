@@ -1,5 +1,6 @@
 [
     { "filename": "post1.txt" },
-    { "filename": "post2.txt" }
+    { "filename": "post2.txt" },
+    {"filename":"post3.txt"}
 ]
   
