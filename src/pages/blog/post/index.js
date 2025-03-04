@@ -35,6 +35,7 @@ const Post = () => {
         {postContent.content.map((item, index) => {
           if (item.type === "h1") return <h1 key={index}>{item.text}</h1>;
           if (item.type === "h2") return <h2 key={index}>{item.text}</h2>;
+          if (item.type === "discalimer") return <p key={index} className="disclaimer">{item.text}</p>;
           if (item.type === "h3") return <h3 key={index}>{item.text}</h3>;
           if (item.type === "image") return <center><img key={index} src={`/posts/images/${item.src}`} alt="Post content" /></center>;
           if (item.type === "line") return <hr key={index} />;

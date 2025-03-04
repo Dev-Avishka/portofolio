@@ -16,6 +16,9 @@ export const parsePostFile = (text) => {
         parsedPost.content.push({ type: "center", text: line.replace(/&/g, "").trim() });
       } else if (line.startsWith("#")) {
         parsedPost.content.push({ type: "line" });
+      } else if (line.startsWith("~")) {
+  
+        parsedPost.content.push({ type: "discalimer", text: line.replace(/~+/g, "").trim() });
       } else if (line.trim()) {
         parsedPost.content.push({ type: "paragraph", text: line.trim() });
       }

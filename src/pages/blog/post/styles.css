@@ -18,9 +18,13 @@
   }
   
   .post-content {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .disclaimer{
+    font-size: 1.3rem;
+    color: #cc2525;
   }
   
   .post-content img {
