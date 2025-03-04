@@ -9,9 +9,10 @@ export const Portfolio = () => {
     <HelmetProvider>
       <Container className="About-header">
         <Helmet>
-          <meta charSet="utf-8" />
-          <title> Portfolio | {meta.title} </title>{" "}
-          <meta name="description" content={meta.description} />
+          <title>Dev-Avishka-Portfolio</title>
+          <meta name="description" content="Portfolio of Dev Avishka " />
+          <meta name="keywords" content="Developer,DevAvishka,Devdisa,Dissanayake,Devdisa Dissanayake,Avishka,Devdisa Avishka Bandara Dissanayake,Blog,Marvel,Thanos,PHP,React,University,Student,CS,Portfolio,Work" />
+          <meta name="robots" content="index, follow" />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">

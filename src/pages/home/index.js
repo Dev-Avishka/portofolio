@@ -12,9 +12,10 @@ export const Home = () => {
     <HelmetProvider>
       <section id="home" className="home">
         <Helmet>
-          <meta charSet="utf-8" />
-          <title> {meta.title}</title>
-          <meta name="description" content={meta.description} />
+          <title>Dev-Avishka</title>
+          <meta name="description" content="Home Page of Dev Avishka " />
+          <meta name="keywords" content="Developer,DevAvishka,Devdisa,Dissanayake,Devdisa Dissanayake,Avishka,Devdisa Avishka Bandara Dissanayake" />
+          <meta name="robots" content="index, follow" />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div

@@ -17,6 +17,7 @@ const Post = () => {
     }
   };
 
+
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const postFilename = params.get("postID");
@@ -43,6 +44,12 @@ const Post = () => {
           return <p key={index}>{item.text}</p>;
         })}
       </div>
+      <Helmet>
+        <title>{postContent.title}</title>
+        <meta name="description" content={postContent.description} />
+        <meta name="keywords" content={"Developer,DevAvishka,Devdisa,Dissanayake,Devdisa Dissanayake,Avishka,Devdisa Avishka Bandara Dissanayake" + postContent} />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
     </div>
   );
 };

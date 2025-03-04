@@ -15,9 +15,10 @@ export const About = () => {
     <HelmetProvider>
       <Container className="About-header">
         <Helmet>
-          <meta charSet="utf-8" />
-          <title> About | {meta.title}</title>
-          <meta name="description" content={meta.description} />
+          <title>Dev-Avishka-Blog</title>
+          <meta name="description" content=" About Dev Avishka " />
+          <meta name="keywords" content="Developer,DevAvishka,Devdisa,Dissanayake,Devdisa Dissanayake,Avishka,Devdisa Avishka Bandara Dissanayake,Blog,Marvel,Thanos,PHP,React,University,Student,CS,About" />
+          <meta name="robots" content="index, follow" />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">

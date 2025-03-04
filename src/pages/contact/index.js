@@ -69,9 +69,10 @@ export const ContactUs = () => {
     <HelmetProvider>
       <Container>
         <Helmet>
-          <meta charSet="utf-8" />
-          <title>{meta.title} | Contact</title>
-          <meta name="description" content={meta.description} />
+          <title>Dev-Avishka-Contact</title>
+          <meta name="description" content="Contact Dev Avishka " />
+          <meta name="keywords" content="Developer,DevAvishka,Devdisa,Dissanayake,Devdisa Dissanayake,Avishka,Devdisa Avishka Bandara Dissanayake,Blog,Marvel,Thanos,PHP,React,University,Student,CS,Contact" />
+          <meta name="robots" content="index, follow" />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">

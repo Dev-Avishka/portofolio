@@ -28,6 +28,7 @@ const BlogIndex = () => {
   useEffect(() => {
     fetchPosts();
   }, []);
+  
 
   return (
     <div className="blog-index">
@@ -45,6 +46,12 @@ const BlogIndex = () => {
           </Link>
         ))}
       </div>
+      <Helmet>
+          <title>Dev-Avishka-Blog</title>
+          <meta name="description" content="Blog of Dev Avishka " />
+          <meta name="keywords" content="Developer,DevAvishka,Devdisa,Dissanayake,Devdisa Dissanayake,Avishka,Devdisa Avishka Bandara Dissanayake,Blog,Marvel,Thanos,PHP,React,University,Student,CS" />
+          <meta name="robots" content="index, follow" />
+        </Helmet>
     </div>
   );
 };
