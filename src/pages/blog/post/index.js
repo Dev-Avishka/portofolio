@@ -19,7 +19,7 @@ const Post = () => {
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
-    const postFilename = params.get("postfilename");
+    const postFilename = params.get("postID");
     if (postFilename) {
       fetchPost(postFilename);
     }
