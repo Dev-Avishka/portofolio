@@ -9,7 +9,7 @@ const Post = () => {
 
   const fetchPost = async (filename) => {
     try {
-      const response = await fetch(`/posts/${filename}`);
+      const response = await fetch(`/posts/${filename+ ".txt"}`);
       const text = await response.text();
       setPostContent(parsePostFile(text));
     } catch (error) {

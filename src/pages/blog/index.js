@@ -36,9 +36,10 @@ const BlogIndex = () => {
         {posts.map((post, index) => (
           <Link
             key={index}
-            to={`/blog/post?postfilename=${post.filename}`}
+            to={`/blog/post?postfilename=${post.filename.replace(".txt", "")}`}
             className="post-box"
           >
+
             <h2 className="post-title1">{post.title}</h2>
             <p className="post-description1">{post.description}</p>
           </Link>
